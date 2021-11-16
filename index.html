@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- <link
+      href="https://fonts.googleapis.com/css?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    /> -->
+    <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JavaScript Drunk Kit</title>
+
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div>
+      <h1 id="title">Drumz</h1>
+    </div>
+    <img src="images/electronicDrumSet3.jpg" usemap="#drummap" width=400px alt="Picture of an electronic drum set">
+
+    <map name="drummap">
+        <area shape="circle" coords="358,44,28" alt="clap" href="javascript:playClap();">
+        <area shape="circle" coords="249,88,42" alt="tom1" href="javascript:playTom();">
+        <area shape="circle" coords="150,88,42" alt="tom2" href="javascript:playTom2();">
+        <area shape="circle" coords="70,112,28" alt="hihat" href="javascript:playHihat();">
+        <area shape="circle" coords="39,44,28" alt="crash" href="javascript:playCrash();">
+        <area shape="circle" coords="104,191,42" alt="hat" href="javascript:playHat();">
+        <area shape="circle" coords="201,178,36" alt="snare" href="javascript:playSnare();">
+        <area shape="circle" coords="293,190,42" alt="kick" href="javascript:playKick();">
+        <area shape="circle" coords="329,111,28" alt="ride" href="javascript:playRide();">
+      </map>
+    <div class="board">
+      <div id="keys">
+        <div id="clapA" class="inputBoxes">
+          <p>A<br />clap</p>
+        </div>
+        <div id="hiHatS" class="inputBoxes">
+          <p>S<br />hi-hat</p>
+        </div>
+        <div id="kickD" class="inputBoxes">
+          <p>D<br />kick</p>
+        </div>
+        <div id="openHatF" class="inputBoxes">
+          <p>F<br />open-hat</p>
+        </div>
+        <div id="boomG" class="inputBoxes">
+          <p>G<br />boom</p>
+        </div>
+        <div id="rideH" class="inputBoxes">
+          <p>H<br />ride</p>
+        </div>
+        <div id="snareJ" class="inputBoxes">
+          <p>J<br />snare</p>
+        </div>
+        <div id="tomK" class="inputBoxes">
+          <p>K<br />tom</p>
+        </div>
+        <div id="tinkL" class="inputBoxes">
+          <p>L<br />tink</p>
+        </div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+<html>
